@@ -1,14 +1,16 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Gorilla Tag Fan Game Wiki",
-  description: "A wiki for Gorilla Tag fan games",
+  title: 'Gorilla Tag Fan Game Wiki',
+  description: 'A wiki for Gorilla Tag fan games',
+  base: '/',
+
+  cleanUrls: true,
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Getting Started', link: '/guides/getting-started' }
     ],
 
     sidebar: [
@@ -18,11 +20,46 @@ export default defineConfig({
           { text: 'Welcome', link: '/' },
           { text: 'Getting Started', link: '/guides/getting-started' }
         ]
+      },
+
+      {
+        text: 'Development',
+        collapsed: false,
+        items: [
+          { text: 'Unity Setup', link: '/development/unity-setup' },
+          { text: 'Start Your Fan Game', link: '/development/fan-game-start' }
+          { text: 'Building for Quest', link: '/development/building-for-quest' }
+        ]
+      },
+
+      {
+        text: 'Resources',
+        collapsed: false,
+        items: [
+          { text: 'FAQ', link: '/resources/faq' }
+        ]
       }
     ],
 
+    search: {
+      provider: 'local'
+    },
+
+    outline: {
+      level: [2, 3],
+      label: 'On this page'
+    },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/otisdub/gtagfangamewiki' }
-    ]
+      {
+        icon: 'github',
+        link: 'https://github.com/otisdub/gtagfangamewiki'
+      }
+    ],
+
+    footer: {
+      message: 'Gorilla Tag Fan Game Wiki',
+      copyright: 'Community-maintained documentation'
+    }
   }
 })
