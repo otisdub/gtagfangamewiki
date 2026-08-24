@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "Gorilla Tag Fan Game Wiki"
-  text: "A wiki for Gorilla Tag fan games"
-  tagline: My great project tagline
+  name: "Gorilla Tag Fan Games"
+  text: "An Unofficial Wiki!"
+  tagline: Get started on Gorilla Tag fan games fast
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting Started
+      link: /guides/getting-started
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: uh hi
+    details: idk what to put here :/
+  - title: uhhhhh
+    details: should I just remove this part :/
+  - title: this wiki isn't ai
+    details: uh ok.....
 ---
 

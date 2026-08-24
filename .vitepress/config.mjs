@@ -27,7 +27,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Unity Setup', link: '/development/unity-setup' },
-          { text: 'Start Your Fan Game', link: '/development/fan-game-start' }
+          { text: 'Start Your Fan Game', link: '/development/fan-game-start' },
           { text: 'Building for Quest', link: '/development/building-for-quest' }
         ]
       },
@@ -59,7 +59,7 @@ export default defineConfig({
 
     footer: {
       message: 'Gorilla Tag Fan Game Wiki',
-      copyright: 'Community-maintained documentation'
+      copyright: 'A community run wiki'
     }
   }
 })
