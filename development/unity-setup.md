@@ -36,3 +36,5 @@ We would recommend **Connect to Unity Cloud ON.**
 In newer versions of the Unity Hub, it offers platforms other than UVC. **Please use GitHub if it is an option.** Otherwise use UVC, as nowadays it stores the entire project and not just the assets folder.
 
 After you feel done, hit **Create project**!
+
+To edit this article, [create a pull request](https://github.com/otisdub/gtagfangamewiki/pulls).
