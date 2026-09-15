@@ -47,3 +47,14 @@ Now, go to Project Settings, then go to **Preset Manager**, and under **ActionBa
 It is recommended you rename **Scenes > SampleScene** to something like **Main**, because some packages will override SampleScene.
 :::
 
+Now, download [Gorilla Locomotion](https://github.com/Another-Axiom/GorillaLocomotion/blob/main/GorillaLocomotion.unitypackage), and open **GorillaLocomotion.unitypackage**. It should automatically open in Unity.
+
+Now, in the package importer, click **All**, then **Import**.
+
+Now, drag **Resources > GorillaPrefabs > Gorilla Rig** to your scene.
+
+Select the Gorilla Rig in the scene, and in the inspector, change **Tracking Origin Mode** to **Floor**.
+
+Now, dropdown Gorilla Rig and GorillaPlayer. Select both **LeftHand Controller** and **RightHand Controller**, and in the tag in the inspector, click **Add tag**, then add a new tag called **HandTag** with exact spelling and capitalization. Select the two controllers and assign the tag. Now, under LeftHand Controller, add a layer called `Left Hand` and another called `Right Hand`. In the LeftHand Controller and RightHand Controller, assign the correct layers.
+
+Now, under both controllers, in the Inspector, click **Add Component**, then add a Sphere Collider. In that sphere collider, enable **Is Trigger**, and set the Radius to 0.06.
