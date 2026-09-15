@@ -13,3 +13,5 @@ To make a Gorilla Tag fan game, your computer must meet the requirements stated 
 ::: warning
 You do **NOT** need any Unity knowledge to make a Gorilla Tag fan game, except it is recommended. We recommend learning C# before continuing.
 :::
+
+To edit this article, [create a pull request](https://github.com/otisdub/gtagfangamewiki/pulls).
