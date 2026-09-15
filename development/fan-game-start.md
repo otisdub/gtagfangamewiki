@@ -58,3 +58,5 @@ Select the Gorilla Rig in the scene, and in the inspector, change **Tracking Ori
 Now, dropdown Gorilla Rig and GorillaPlayer. Select both **LeftHand Controller** and **RightHand Controller**, and in the tag in the inspector, click **Add tag**, then add a new tag called **HandTag** with exact spelling and capitalization. Select the two controllers and assign the tag. Now, under LeftHand Controller, add a layer called `Left Hand` and another called `Right Hand`. In the LeftHand Controller and RightHand Controller, assign the correct layers.
 
 Now, under both controllers, in the Inspector, click **Add Component**, then add a Sphere Collider. In that sphere collider, enable **Is Trigger**, and set the Radius to 0.06.
+
+To edit this article, [create a pull request](https://github.com/otisdub/gtagfangamewiki/pulls).
