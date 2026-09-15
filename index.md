@@ -14,8 +14,8 @@ hero:
 features:
   - title: uh hi
     details: idk what to put here :/
-  - title: uhhhhh
-    details: should I just remove this part :/
+  - title: THIS WIKI IS UNFINISHED!
+    details: To edit this wiki, [create a pull request](https://github.com/otisdub/gtagfangamewiki/pulls).
   - title: this wiki isn't ai
     details: uh ok.....
 ---
